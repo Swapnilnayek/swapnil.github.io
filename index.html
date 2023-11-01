@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY PORTFOLIO WEBSITE </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3391ad55a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+        <img src="logo2.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p> Web Developer </p>
+          <h1><span>Hi,</span>
+            <span>I'm</span>
+            <span class="deco">Swapnil</span>
+            <span>Nayek</span>
+            <span>from</span>
+            <span>India</span></h1>
+        </div>
+      </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="pp (1).jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p> Hello, I'm Swapnil! 
+            As a MERN Web developer, I'm passionate about crafting interactive and user-friendly web experiences. 
+            With a solid foundation in MongoDB, Express, React, and Node.js, I bring your digital ideas to life. 
+            I'm not just a developer; I'm also a content writer and SEO enthusiast. 
+            I love creating compelling and optimized content that boosts online visibility and engages audiences.
+            Data analysis is my other forte. I enjoy diving into data to extract valuable insights, enabling data-driven decision-making.
+            I have a keen interest in sales and marketing, coupled with a penchant for market research. 
+            I understand the importance of a well-executed sales strategy and the pivotal role of market research in shaping it.
+            In this dynamic digital age, I thrive on learning and adapting. 
+            Let's connect and explore opportunities to collaborate, share insights, and make a meaningful impact.
+            </p>
+
+            <div class="tab-titles">
+              <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class ="tab-links" onclick="opentab('education')">Education</p>
+              <p class ="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+
+            <div class="tab-contents activetab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br>Creating Websites for clients</li>
+                <li><span>UI/UX Designer</span><br>Designing Web/App interfaces</li>
+                <li><span>Market Research</span><br>Gathering and Analyzing data to grow businesses</li>
+                <li><span>SEO Content Writing</span><br>Writing SEO Articles</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2021-2024</span><br>Persuing B.Sc.(H) from Visva-Bharati University</li>
+                <li><span>2021</span><br>Excelled class 12th Board examination from TIGPS, Bolpur</li>
+                <li><span>2019</span><br>Matriculation from St.Teresa's School, Bolpur</li>
+              </ul>
+            </div>
+            
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-Present</span><br>Content Writer at Football Express UK</li>
+                <li><span>2023</span><br>CodSoft Web development Intern</li>
+                <li><span>2020-2021</span><br>Instagram Content Creator</li>
+                <li><span>2023</span><br>Campus Ambassador at IIM Banglore VISTA</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>
+            As a MERN stack web developer, my responsibilities include designing and implementing user-friendly web applications. 
+            I use a variety of tools and technologies. For the front-end, I work with HTML, CSS, and JavaScript, utilizing libraries like React for building dynamic user interfaces. 
+            On the back-end, I employ Node.js and Express for server-side development, along with MongoDB for database management. 
+            My goal is to create robust, scalable, and efficient web solutions that deliver a seamless user experience.
+          </p>
+          <a href="https://www.linkedin.com/in/swapnil-nayek-87b945187/">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-pen-nib"></i>
+          <h2>SEO Content Writing</h2>
+          <p>
+            As an SEO content writer covering Sports, my responsibilities include researching current events, identifying relevant keywords, and crafting engaging, informative articles.
+            I aim to provide readers with accurate, well-structured content that not only informs but also ranks well in search engines.
+            I use a range of tools to enhance my work, such as keyword research tools like SEMrush to identify trending topics. 
+            Grammarly helps me maintain high writing standards, while Google Analytics provides insights into content performance. 
+            WordPress is my go-to platform for publishing, and I use Yoast SEO for on-page optimization.
+          </p>
+          <a href="https://www.linkedin.com/in/swapnil-nayek-87b945187/">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-shop"></i>
+          <h2>Market Research Analyst</h2>
+          <p>I am a Market Research Analyst, and my primary responsibilities revolve around gathering and analyzing data to help businesses make informed decisions. 
+            I conduct market studies, track industry trends, and assess customer preferences. I utilize a range of tools, including survey platforms like SurveyMonkey and Qualtrics to collect data. 
+            Data analysis software like SPSS and Excel helps me crunch numbers, while data visualization tools such as Tableau or Power BI assist in presenting insights effectively. 
+            I also rely on social media analytics tools like Brandwatch and Google Analytics for online research. 
+          </p>
+          <a href="https://www.linkedin.com/in/swapnil-nayek-87b945187/">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="work (1).jpg">
+          <div class="layer">
+            <h3>Online Shopping Webpage</h3>
+            <p>Website to purchase a wide range of products</p>
+            <a href="https://swapnilnayek.github.io/Amazon-Frontend-Clone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work (2).jpg">
+          <div class="layer">
+            <h3>Calculator App</h3>
+            <p>App to perform basic calculation</p>
+            <a href="https://swapnilnayek.github.io/Calculator-Pro/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work (3).jpg">
+          <div class="layer">
+            <h3>Rolex Watches Landing Page</h3>
+            <p>Website to purchase most latest Luxury Watches</p>
+            <a href="https://swapnilnayek.github.io/Rolex-Watches-Landing-Page/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Swapnilnayek?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i>swapnilnayek@gmail.com</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/swapnil.nayek"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/swapnilnayek10"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/swap_nyk_a.s/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/swapnil-nayek-87b945187/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="my cv.docx" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © SWAPNIL. Made with <i class="fa-solid fa-heart" style="color: #df5ddb;"></i> by Swapnil Nayek</p>
+  </div>
+</div>
+
+
+<script>
+      var tablinks=document.getElementsByClassName("tab-links");
+      var tabcontents=document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+          for(tabcontent of tabcontents){
+          tabcontent.classList.remove("activetab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("activetab");
+        }
+</script>
+
+<script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyGY605lv2Zyq4Gq8zPHtanastbszjw3q9MM1K08QxX-47mDrZBsZzm6hi3qKUDb_W_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML= ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
